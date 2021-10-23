@@ -1,12 +1,8 @@
-![](https://raw.githubusercontent.com/cntrump/hugo-notepadium/master/images/screenshot.png)
+# notelogger
 
-# Notepadium [![Build Status](https://travis-ci.org/cntrump/hugo-notepadium.svg?branch=master)](https://travis-ci.org/cntrump/hugo-notepadium)
+101% JavaScript-free Hugo theme. It is a fork of [Notepadium](https://github.com/cntrump/hugo-notepadium) theme with updates. Hugo version [0.60.0+](https://github.com/gohugoio/hugo/releases/) is required.
 
-Request Hugo Version: [0.60.0+](https://github.com/gohugoio/hugo/releases/)
-
-a fast and focus on reading [Hugo](https://gohugo.io) theme, **100% JavaScript-free**.
-
-Features
+## Key Features
 
 - Logo and slogan
 - Navigation items
@@ -26,14 +22,6 @@ Features
 - [Twitter Card](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary) supporting
 - Builtin iconfont (3KB)
 - Display author profile at article bottom
-
-Preview the exampleSite:
-
-```shell
-git clone https://github.com/cntrump/hugo-notepadium.git hugo-notepadium
-cd hugo-notepadium/exampleSite
-hugo server --themesDir ../..
-```
 
 ## Quick Start
 
@@ -420,25 +408,3 @@ robots = "noindex,nofollow"
 ```
 
 If `noindex` is included, that page will also be hidden in `sitemap.xml`.
-
-## Thanks
-
-- [**Hugo**](https://gohugo.io/)
-- [**HighlightJS**](https://highlightjs.org/)
-- [**PrismJS**](https://prismjs.com/)
-- [**MathJax**](https://www.mathjax.org/)
-- [**Katex**](https://katex.org/)
-- [**Disqus**](https://disqus.com/)
-- Built-in Japanese language [@kofuk](https://github.com/kofuk)
-
-## Note
-
-For Hugo 0.62.0+ users
-
- `![](01.png)` render as inline `<img>`, like as Github's style
-
- ![](https://raw.githubusercontent.com/cntrump/hugo-notepadium/master/images/01.png)
-
-`![](01.png " ")` render as block `<img>`, like as `<figure>` tag style.
-
-![](https://raw.githubusercontent.com/cntrump/hugo-notepadium/master/images/02.png)

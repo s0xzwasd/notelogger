@@ -1,15 +1,20 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "Notepadium"
+name = "notelogger"
 license = "MIT"
 licenselink = "https://github.com/cntrump/hugo-notepadium/blob/master/LICENSE"
-description = "a fast Hugo theme, 100% JavaScript-free."
+description = "101% JavaScript-free Hugo theme."
 homepage = "https://lvv.me/"
 tags = ["blog"]
 features = ["MathJax", "HighlightJS", "PrismJS"]
 min_version = "0.60.0"
 
 [author]
-  name = "lvv"
+  name = "s0xzwasd"
+  homepage = "https://dmaslov.dev/"
+
+[original]
+  author = "lvv"
   homepage = "https://lvv.me"
+  repo = "https://github.com/cntrump/hugo-notepadium"
